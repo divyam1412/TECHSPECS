@@ -1,0 +1,44 @@
+.trending-container{
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 10px;
+    display:flex;
+    margin: auto;
+    overflow-x: auto;
+    scrollbar-width: none;
+    background-color: white;
+    /* padding: 10px; */
+}
+.trending-container::-webkit-scrollbar{
+    display: none;
+}
+.box{
+    width: 180px;
+    margin: 15px;
+}
+.box .box-text{
+    font-size: 15px;
+}
+.box a{
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}
+.box a:hover{
+    color:rgb(0, 102, 255);
+    /* text-decoration:underline; */
+}
+.box:hover{
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+
+}
+.box img{
+    /* border: 2px solid red; */
+    height: 180px;
+    width: 180px;
+    padding: auto;
+}
+#box1{
+    /* background-color: blue; */
+}
